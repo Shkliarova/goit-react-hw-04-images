@@ -13,6 +13,10 @@ export const App = () => {
   const [isLoading, setLoading] = useState(false);
 
   useEffect(() => {
+    if(!query){
+      return;
+    }
+
     async function fetchImageData () {
       try{
         setLoading(true);
