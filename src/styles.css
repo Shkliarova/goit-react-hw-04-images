@@ -163,10 +163,10 @@ img {
 }
 
 .Modal {
-  max-width: calc(100vw - 48px);
-  max-height: calc(100vh - 24px);
+  max-width: calc(100vw - 700px);
+  max-height: calc(100vh - 350px);
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     right: auto;
     bottom: auto;
